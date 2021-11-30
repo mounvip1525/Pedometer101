@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/pedoStyles.css">
+    <title>Document</title>
+</head>
+<body>
+    <nav>
+        <h2>Pedometer</h2>
+        <img src="pedo.png" alt="pedo" />
+    </nav>
+    <div class="body">
+        <div class="main">
+            <div class="progress-circle p55">
+                <span><%= (steps / 10000 * 100).toFixed(0) %>%</span>
+                <div class="left-half-clipper">
+                  <div class="first50-bar"></div>
+                  <div class="value-bar"></div>
+                </div>
+              </div>
+            <p>Steps Today</p>
+            <div class="bg">
+                <%= steps %>
+            </div>
+            <p><%= (steps * 0.063).toFixed(0) %> Calories</p>
+        </div>
+    </div>
+    <footer>
+        <p>CSE2006 J Component </p>
+    </footer>
+</body>
+</html>
