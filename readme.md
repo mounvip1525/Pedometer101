@@ -1,4 +1,5 @@
 # Pedometer101 🚶
+Arduino based cheap and handy pedometer. Highly customisable and connected to Node App too.
 <div align="center">
   <img src="./walking.gif"/ height="250">
 </div>
