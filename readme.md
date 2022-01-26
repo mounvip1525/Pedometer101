@@ -36,4 +36,10 @@ Arduino based cheap and handy pedometer. Highly customisable and connected to No
     <li><a href="https://github.com/mounvip1525/Pedometer101/blob/master/19BCE0396_VL2021220105185_PE003.pdf" >Report </a></li>
   </ul>
   
+## Contributors 🌟
+- [Mounvi Podapati](https://github.com/mounvip1525)
+- [Ohm Patel](https://github.com/ohmpatel46)
+- [Srishti Gohain](https://github.com/SrishtiGohain)
+- [Varun Vegi](https://github.com/VarunVegi8)
+  
  
